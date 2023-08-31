@@ -1,0 +1,36 @@
+      Manual de Unix
+ls      <---- Listado de archivos y carpetas 
+cd  (nombre directorio) <---- Cambio de directorio 
+cd ..   <---- Subir al directorio madre
+cd .    <---- Subir al Home
+pwd     <---- present working directory
+cd/home/alumno/Documentos
+rm ____ ____ ____ <---- Borrar archivos 
+rm *.jpg
+rm *    <---- Borrar todos los archivos menos los directorios 
+rm -r   <---- Borrar todo
+rmdir   <---- Borrar directorio 
+mkdir   <---- Hacer directorio  
+ps -ef	<---- Pausar procesos 
+kill-9  <---- Eliminar proceso
+
+      Manual para escribir en terminal de texto
+
+Palabra <---- Buscar por palabra 
+n:      <---- Próxima aparición de la palabra 
+N: 	<---- Anterior aparicion de la palabra 
+:100    <---- Ir a la linea 100
+:$ 	<---- Ir a la última línea
+esc:   	<---- Salir de modo de escritura
+R:	<---- Modo de escritura reemplazando
+i: 	<---- modo de escritura insertando
+x:	<---- Borrado de letras
+dd: 	<---- Borrado de renglón
+D:	<---- Borrar apartir de este punto
+o:	<---- Abrir renglón abajo
+O:	<---- Abrir renglón arriba 
+:q 	<---- Salir 
+:wq	<---- Guardar y salir 
+:w 	<---- Guardar
+:q!	<---- Salir sin guardar
+
