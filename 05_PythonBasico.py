@@ -96,5 +96,5 @@ for par in numeros.items():
 # key = llave
 # value = valor 
 #==========================================
-for k,y in numeros.items():
+for k,v in numeros.items():
     print ("key =", k, ", value =", v)
