@@ -1,9 +1,9 @@
 #=========================================
-#  Alvin NOli Lemus 
+#  Alvin Noli Lemus 
 #=========================================
 # Paradigmas de Programacion 
 # Matematica Algoritmica 
-# ESFM IPN Septiembre 2023
+# ESFM IPN Octubre 2023
 #=========================================
 
 #=========================================
@@ -80,6 +80,3 @@ def funcion1():
 # Llamar a funcion1
 #================================
 funcion1()
-  
-
-
