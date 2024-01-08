@@ -11,7 +11,7 @@
 # Listas
 # Las listas pueden ser de objetos diferentes
 #===============================================
-miprimeralsita = []    #Lista vacía
+miprimeralista = []    #Lista vacía
 print(mipriemralista)
 
 #=========================================
@@ -68,12 +68,10 @@ print(L1+l2)
 potencial = [] 
 for i in range(0,10000):
   potencial.append(float(i))
-print(potnecial[100])
+print(potencial[100])
 
 #=======================================
 # Generar una tupla con la lista
 #=======================================
 potencial = tuple(potencial)
 print(potencial[100])
-
-
