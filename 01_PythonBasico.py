@@ -56,7 +56,7 @@ print(" Hola "); print("tu!!") # Se considera mala práctica
 #=======================================================
 # Usando paréntess redondos, cuadrados o llaves
 # se puede escribir en varios renglones
-List = [1,2,3,4,
+list = [1,2,3,4,
         5,6,7,8,
         9,10,11,12]
 
