@@ -71,7 +71,7 @@ parrafo = """ En el bosque de la china
 print(parrafo)
 
 #==============================================
-# La función len() obtiene el tmaño del string
+# La función len() obtiene el tamaño del string
 #==============================================
 n=len(parrafo)
 print(n)
@@ -82,4 +82,4 @@ $ (también de atrás para adelante comenzando en -1 el último)
 #=============================================================
 palabra = "hola"
 print(palabra[0])
-print(palara[-4])
+print(palabra[-4])
