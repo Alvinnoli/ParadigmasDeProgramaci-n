@@ -29,7 +29,7 @@ precio = 50
 cantidad = 5 
 total = precio*cantidad 
 #=============================
-# Condocionales anidados
+# Condicionales anidados
 #=============================
 if total > 100: 
     if total > 500: 
@@ -50,7 +50,7 @@ else:
     print ("Total es menor que 100 ")
 
 #=====================================
-#  Contador mientras la condicione sea verdadera
+#  Contador mientras la condicion sea verdadera
 #=====================================
 num = 0
 while mun < 5: 
@@ -78,7 +78,7 @@ for i in nums:
     print (i)
 
 #==========================================
-# BUcle sobre un string
+# Bucle sobre un string
 #==========================================
 for char in 'hola':
     print (char)
