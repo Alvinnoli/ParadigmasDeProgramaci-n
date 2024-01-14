@@ -53,7 +53,7 @@ else:
 #  Contador mientras la condicion sea verdadera
 #=====================================
 num = 0
-while mun < 5: 
+while num < 5: 
     print('num= ', num)
 
 num = 0 
