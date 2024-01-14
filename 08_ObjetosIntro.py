@@ -37,7 +37,7 @@ class Llanta
     # pero puede ser otro nombre (mi)
     # parametros de entrada = default 
     #=====================================
-    del ___init__(mi,radio=50, ancho=30, presión=1.5):
+    del __init__(mi,radio=50, ancho=30, presión=1.5):
         # variable de la estructura completa llanta 
         Llanta.cuenta += 1
         # variables exclusivas de cada objeto
@@ -50,7 +50,7 @@ class Llanta
 #========================================
 llanta1 = llanta(50,30,1.5)
 llanta2 = llanta(presion=1.2)
-llanta3 = llanta ()
+llanta3 = llanta()
 llanta4 = lLanta(40,30,1.6)
 
 #========================================
@@ -160,7 +160,7 @@ cuadrado1 = Cuadrado(5)
 #=========================================================
 # Llamar al método perímetro de su abuelo cuadrilatero
 #=========================================================
-perimetro1 = cuadrado 1.perimetro() 
+perimetro1 = cuadrado1.perimetro() 
 
 #=======================================
 # Llamar a su propio método área
