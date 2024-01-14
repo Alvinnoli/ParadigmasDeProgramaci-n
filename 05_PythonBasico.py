@@ -54,6 +54,7 @@ else:
 #=====================================
 num = 0
 while num < 5: 
+    mun += 1
     print('num= ', num)
 
 num = 0 
