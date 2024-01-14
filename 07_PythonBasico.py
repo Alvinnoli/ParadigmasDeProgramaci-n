@@ -10,7 +10,7 @@
 # Importacion de modulos 
 # Contiene objetos y funciones 
 #===========================================
-import matplotlib.pylot as grafica
+import matplotlib.pyplot as grafica
 import math
 
 #===========================================
