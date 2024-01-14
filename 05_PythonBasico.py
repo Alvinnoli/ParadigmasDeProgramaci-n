@@ -1,5 +1,5 @@
 #==============================
-#   Alvin NOli Lemus 
+#   Alvin Noli Lemus 
 #==============================
 #
 #  Matemática Algoritmica
@@ -35,14 +35,14 @@ if total > 100:
     if total > 500: 
         print ("Total es mayor que 500")
     else:
-       if total < 500 and total
+       if total < 500 and total > 400:
          print("Total es menor que 500 pero mayor que 400")
         elif total < 500 and total > 300:
-            print ("TOtal entre 300")
+            print ("Total entre 300")
         else:
             print("Total entre 100 y 300")
 #-----------------------------
-#  Condicional de igualadad son ==
+#  Condicional de igualdad son ==
 #------------------------------
 elif total == 100:
     print ("Total es 100")
