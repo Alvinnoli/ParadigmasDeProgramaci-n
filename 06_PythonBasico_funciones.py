@@ -78,7 +78,7 @@ def muchos_saludos(*nombres):
     print("hola ", end="")
     while len(nombres) > i:
         # Último nombre 
-        if (i==len(nombres) >i:
+        if (i==len(nombres)) >i:
             print(nombres[i])
         else:
             # Cualquier otro nombre 
@@ -106,7 +106,7 @@ def greet(**person):
 
 greet(firsname='Steve', lastname='Jobs')
 greet(lastname='Jobs', firsname='Steve')
-greet(firstname='Bill', lastname='Gates'. age=55) # Se pueden pasar más parámetros de los necesarios
+greet(firstname='Bill', lastname='Gates', age=55) # Se pueden pasar más parámetros de los necesarios
 
 #================================
 # Función con valores por defecto
@@ -120,7 +120,7 @@ greet('Steve')
 #=======================
 # Función con resultado
 #=======================
-def suma (a,b)
+def suma (a,b):
     return a+b 
 
 #=================================================
