@@ -88,7 +88,7 @@ def muchos_saludos(*nombres):
 muchos_saludos("Bosco","Angel","David","Tamara","Mili","Edwin","Lev","Luis","Abigail")
 
 def greet(firstname, lastname):
-    print ('Hello', firstname='Steve')
+    print ('Hello', firstname, lastname)
 
 #===============================================
 # Llamar la función con argumentos en desorden
