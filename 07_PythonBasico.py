@@ -1,7 +1,7 @@
 #===========================================
 #   ALvin Noli Lemus 
 #===========================================
-# Mamtematica Algorítmica 
+# Matematica Algorítmica 
 # Paradigmas de programacion 
 # ESFM IPN Septiembre 2023
 #===========================================
