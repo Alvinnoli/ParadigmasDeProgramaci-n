@@ -82,9 +82,9 @@ numeros={1:"uno", 2:"dos", 3:"tres"}
 decimales={1.5:"uno y medio",2.5:"dos y medio",3.5:"tres y medio"}
 
 # Llave tupla, valor string
-cosas={("Parker","Reynolds","Camlin"):#pluma", ("LG","Whirlpool","Samsung"): "refrigerador"}
+cosas={("Parker","Reynolds","Camlin"):"pluma", ("LG","Whirlpool","Samsung"): "refrigerador" }
 
-# Llve string, valor int 
+# Llave string, valor int 
 romanos = {'I':1,'II':2, 'III':3, 'IV':4, 'V':5}
 print(romanos)
 print(romanos["I"])
