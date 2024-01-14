@@ -35,7 +35,7 @@ type(numero)
 #======================================================
 # 1.2 x 10^{-9}
 #================
-y = 1.2E-0.9
+y = 1.2E-9
 print(y)
 
 #==========================================================
@@ -78,7 +78,7 @@ print(n)
 
 #=============================================================
 # Las letras en un string ocupan lugares como en un arreglo 
-$ (también de atrás para adelante comenzando en -1 el último)
+# (también de atrás para adelante comenzando en -1 el último)
 #=============================================================
 palabra = "hola"
 print(palabra[0])
