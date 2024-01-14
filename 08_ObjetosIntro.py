@@ -25,7 +25,7 @@ class ObjetoVacio:
 #=========================================
 # La clase llanta
 #=========================================
-class Llanta
+class Llanta:
     #=====================================
     # VAriable cuenta es de toda la clase
     #=====================================
@@ -37,7 +37,7 @@ class Llanta
     # pero puede ser otro nombre (mi)
     # parametros de entrada = default 
     #=====================================
-    del __init__(mi,radio=50, ancho=30, presión=1.5):
+    def __init__(mi,radio=50, ancho=30, presión=1.5):
         # variable de la estructura completa llanta 
         Llanta.cuenta += 1
         # variables exclusivas de cada objeto
@@ -48,16 +48,16 @@ class Llanta
 #========================================
 # Objetos (instanciados)
 #========================================
-llanta1 = llanta(50,30,1.5)
-llanta2 = llanta(presion=1.2)
-llanta3 = llanta()
-llanta4 = lLanta(40,30,1.6)
+llanta1 = Llanta(50,30,1.5)
+llanta2 = Llanta(presión=1.2)
+llanta3 = Llanta()
+llanta4 = Llanta(40,30,1.6)
 
 #========================================
 # OBjeto de contiene otros objetos 
 #========================================
 class Coche:
-    def __init__(mi.ll1,ll2,ll3,ll4):
+    def __init__(mi,ll1,ll2,ll3,ll4):
         mi.llanta1 = ll1
         mi.llanta2 = ll2
         mi.llanta3 = ll3
@@ -66,10 +66,10 @@ class Coche:
 micoche = Coche(llanta1, llanta2, llanta3, llanta4)
 
 print("Total de llantas: ", Llanta.cuenta) #Variable global de la clase 
-print("Presion de la llanta 4 = ", llanta4.presion)
+print("Presion de la llanta 4 = ", llanta4.presión)  # Presión de la llanta 4
 print("Radio de la llanta 4 = ", llanta4.radio)
 print("Radio de la llanta 3 = ", llanta3.radio)
-print("Presion de la llanta 1 de mi coche = ", micoche, llanta1, presion)
+print("Presion de la llanta 1 de mi coche = ", micoche.llanta1.presión)
 
 #========================================
 # Encapsulamiento 
@@ -92,7 +92,7 @@ class Estudiante:
 #========================================
 # Crear objeto estudiante sin nombre 
 #========================================
-estudiante = EStudiante()
+estudiante = Estudiante()
 
 #========================================
 # Ponerle nombre usando la propiedad nombre y el metodo ponerme_nombre 
