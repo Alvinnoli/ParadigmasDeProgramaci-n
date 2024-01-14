@@ -144,7 +144,7 @@ class Cuadrado(Rectangulo):
         super().__init__(a,a)
 
     def area(self):
-        area = self.lado**2
+        area = self.lado1**2
         return area 
 
     #def perimetro(self):
