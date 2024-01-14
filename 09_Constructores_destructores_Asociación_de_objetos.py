@@ -17,7 +17,7 @@ class Computadora:
   #=======================================
   # Constructor
   #=======================================
-  def _init:(self, marca:str, capacidad:int, ram:int):
+  def __init__(self, marca:str, capacidad:int, ram:int):
     print(f"Accediendo al constructor de la pc: {marca}")
     self.marca = marca 
     self.capacidad = capacidad
@@ -29,7 +29,7 @@ class Computadora:
   #=======================================
   # Destructor
   #=======================================
-  def _del_(self):
+  def __del__(self):
     print(f"Se eleminió la computadora: {self.marca}")
 
 #=========================================
@@ -45,7 +45,7 @@ class Persona:
   #=======================================
   # Constructor de persona
   #=======================================
-def _init_(self, nombres:str, apellidos:str, edad:int, direccion:str, marca:str, capacidad:int, ram:int):
+def __init__(self, nombres:str, apellidos:str, edad:int, direccion:str, marca:str, capacidad:int, ram:int):
   self.nombres = nombres 
   self.apellidos = apellidos
   self.edad = edad 
@@ -60,7 +60,7 @@ def imprimirInfo(self) -> None:
  #=========================================
  # Destructor
  #=========================================
-  def _del_(self): 
+  def __del__(self): 
     print(f"--- Eliminamos a la persona... {self.nombres} {self.apellidos}")
 
 #==========================================
