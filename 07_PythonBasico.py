@@ -53,7 +53,7 @@ for i in range(m):
   y = x0+0.1*i 
 error1.append(exponencial(serie,y)-math.exp(y))
 error2.append(exponencial_pro(serie,y)-math.exp(y))
-grafica.sublot(211)
+grafica.subplot(211)
 grafica.plot(x,error1)
 grafica.subplot(212)
 grafica.plot(x,error2)
