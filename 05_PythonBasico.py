@@ -35,12 +35,12 @@ if total > 100:
     if total > 500: 
         print ("Total es mayor que 500")
     else:
-       if total < 500 and total > 400:
+      if total < 500 and total > 400:
          print("Total es menor que 500 pero mayor que 400")
-        elif total < 500 and total > 300:
-            print ("Total entre 300")
-        else:
-            print("Total entre 100 y 300")
+      elif total < 500 and total > 300:
+         print ("Total entre 300")
+      else:
+         print("Total entre 100 y 300")
 #-----------------------------
 #  Condicional de igualdad son ==
 #------------------------------
@@ -66,7 +66,8 @@ while num < 5:
 num = 0 
 while num < 5:
     num += 1
-    if num > 3:                # evitar lo que sigue, continuar con las iteraciones
+    if num > 3:
+       continue          # evitar lo que sigue, continuar con las iteraciones
 
     print ('num = ', num)
 
