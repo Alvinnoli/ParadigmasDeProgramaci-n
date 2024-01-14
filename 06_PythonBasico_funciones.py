@@ -104,8 +104,8 @@ def greet(**person):
     #===================================================
     print('Hello ', person ['firstname'], person ['lastname'])
 
-greet(firsname='Steve', lastname='Jobs')
-greet(lastname='Jobs', firsname='Steve')
+greet(firstname='Steve', lastname='Jobs')
+greet(lastname='Jobs', firstname='Steve')
 greet(firstname='Bill', lastname='Gates', age=55) # Se pueden pasar más parámetros de los necesarios
 
 #================================
