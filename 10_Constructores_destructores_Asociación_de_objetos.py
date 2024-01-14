@@ -10,11 +10,11 @@
 # La clase A tiene tres números reales
 #=========================================
 class A: 
-  _a:float=0.0
-  _b:float=0.0
-  _c:float=0.0
+  __a:float=0.0
+  __b:float=0.0
+  __c:float=0.0
 
-  def _init_(self,a:float,b:float,c:float):
+  def __init__(self,a:float,b:float,c:float):
     self.a=a
     self.b=b
     self.c=c 
@@ -23,10 +23,10 @@ class A:
 # La clase B tiene dos números reales
 #=========================================
 class B:
-    _d:float=0.0
-    _e:float=0.0
+    __d:float=0.0
+    __e:float=0.0
 
-    def _init_(self,d:float,e:float):
+    def __init__(self,d:float,e:float):
         self.d = d 
         self.e = e 
     #==================================================
@@ -49,11 +49,11 @@ print(objetoB.sumar_todo(objetoA.a,objetoA.b))
 # El objeto A se instancia dentro de C
 #==========================================================
 class C: 
-    _d:float=0.0
-    _e:float=0.0
-    _Aa:A=None
+    __d:float=0.0
+    __e:float=0.0
+    __Aa:A=None
 
-    def _init_(self,d:float,e:float):
+    def __init__(self,d:float,e:float):
       self.d = d
       self.e = e 
       # A está instanciando adentro
@@ -75,11 +75,11 @@ print(objetoC.sumar_todo())
 # Definido por fuera
 #=================================================
 class D:
-    _d:float=0.0
-    _e:float=0.0
-    _Aa:A=None
+    __d:float=0.0
+    __e:float=0.0
+    __Aa:A=None
 
-    def _init_(self,d:float,e:float,Aa:A):
+    def __init__(self,d:float,e:float,Aa:A):
       self.d = d 
       self.e = e 
       self.Aa = Aa
