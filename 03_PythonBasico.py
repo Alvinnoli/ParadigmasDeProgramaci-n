@@ -12,7 +12,7 @@
 # Las listas pueden ser de objetos diferentes
 #===============================================
 miprimeralista = []    #Lista vacía
-print(mipriemralista)
+print(miprimeralista)
 
 #=========================================
 # Llenado de lista
@@ -60,7 +60,7 @@ del nums
 #======================================
 L1 = [1,2,3]
 L2 = [4,5,6]
-print(L1+l2)
+print(L1+L2)
 
 #======================================
 # Llenado a mano
