@@ -32,7 +32,7 @@ print(s)
 #====================================================
 # De diccionario a conjunto: conjunto de llaves
 #====================================================
-d = [1:'uno', 2:'dos']
+d = {1:'uno', 2:'dos'}
 s = set(d) 
 print(s)
 
