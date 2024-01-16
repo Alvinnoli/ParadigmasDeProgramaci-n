@@ -36,7 +36,7 @@ print("Saludos desde el proceso ", str(quien_soy), "de ", str(n_procesos))
 #=============================
 # Si yo soy el cero hago esto
 #=============================
-if quien_soy 0:
+if quien_soy == 0:
     print("Yo soy el proceso 0")
 
 #====================================
