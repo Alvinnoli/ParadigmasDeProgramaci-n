@@ -19,7 +19,7 @@ import time
 # Función
 #==========
 def calc():
-    fir i in range(0,4000000):
+    for i in range(0,4000000):
         math.sqrt(i)
 
 #================
