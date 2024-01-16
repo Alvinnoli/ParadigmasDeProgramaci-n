@@ -18,7 +18,7 @@ import time
 #===================================================
 def sumale100_1(numeros,candado):
   for i in range(100):
-    tieme.sleep(0.01)
+    time.sleep(0.01)
     for i in range(len(numeros)):
       #=============================================================
       # lo que esté dentro de con candado no puede accederse 
@@ -37,14 +37,14 @@ def sumale100_2(numero,candado):
     # Quitar el candado
     candado. release()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
   #==================================================
   # Candado para evitar que dos procesos se empalmen
   #==================================================
   candado = Lock()
 
   # Arreglo compartido entre los procesos, 'd' es doble precisión
-  numeros_compartidos = Array]('d', [0.0,100.0,200.0])
+  numeros_compartidos = Array('d', [0.0,100.0,200.0])
 
   # : quiere decir que los elementos 
   print("Al principio vale = ", numeros_compartidos[:])
