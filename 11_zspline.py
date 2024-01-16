@@ -5,7 +5,7 @@
 #==============================
 import numpy as np 
 from Curva import Curva,zspline
-import matplotlib.pylot as plt
+import matplotlib.pyplot as plt
 import math
 
 #=====================
