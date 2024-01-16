@@ -19,12 +19,12 @@ def func(i, param1, param2, param3):
 def resultado(result):
    # se inscriben en lista global
   global results
-  results.append(results)
+  results.append(result)
 
 #========================
 # Programa principal
 #========================
-if _name_ == "_main_"
+if __name__ == "__main__"
   # Matriz de 10x3 números al azar
   params = np.random.random((10,3))*100.0
   results = []
