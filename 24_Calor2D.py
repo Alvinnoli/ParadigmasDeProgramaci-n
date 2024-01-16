@@ -38,7 +38,7 @@ dt = 0.25*(min(dx[0],dx[1])**2/k)
 print("dt = ",dt)
 # Total de celdas
 nt = n[0]*n[1]
-print("celdas = "nt)
+print("celdas = ",nt)
 
 #===========================
 # Arreglos iniciales
@@ -96,10 +96,10 @@ for t in range(1,pasos+1):
     #=========================================
     # Avisar en pantalla el paso en el que va
     #=========================================
-    if t%100===0: print("Iteración = ",t)
+    if t%100==0: print("Iteración = ",t)
       
 end = time.time()
-print("Tard+o: ", end-start,"s")
+print("Tardó: ", end-start,"s")
 
 #=========================================
 # Graficar la solución al tiempo final
