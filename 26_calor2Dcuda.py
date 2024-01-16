@@ -54,7 +54,7 @@ def evolucion(u,n_0,n_1,udx2_0,udx2_1,dt,kd,i):
   jm1 = i - n_0
   laplaciano = (u[i-1]-2.0*u[i]+u[i+1])*udx2_0 + (u[jm1]-2.0*u[i]+u[jp1])*udx2_1
 
-  unaeva = u[i] u[i] + dt*kd*laplaciano
+  unaeva = u[i] + dt*kd*laplaciano
   return unaeva
 
 #============================
@@ -103,7 +103,7 @@ for t in range(1,pasos+1):
     # Copiar arreglo dentro del GPU
     #===================================
     u_d = cuda.to_device(un_d)
-    if t%100=0: print("paso = ", t)
+    if t%100==0: print("paso = ", t)
 
 #=======================
 # Pasar arreglo al CPU
