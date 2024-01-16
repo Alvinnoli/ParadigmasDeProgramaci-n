@@ -7,13 +7,13 @@
 #=========================================
 
 #===============================================================
-# La clase ClienteBancario está en el dubdirectorio 
+# La clase ClienteBancario está en el subdirectorio 
 # aplicación/banco/
 #===============================================================
 from aplicacion.banco.cliente_bancario import ClienteBancario
 
 #======================================================
-# try: intenta (correr kas instrucciones)
+# try: intenta (correr las instrucciones)
 # except: atrapar el error en una variable e
 # e se puede convertir a string
 #======================================================
