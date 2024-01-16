@@ -42,10 +42,14 @@ rrr = comm.gather(r_chunk,root=1)
 #=====================
 # Ver lo que pasó
 #=====================
+i#=====================
+# Ver lo que pasó
+#=====================
 if rank == 0:
-    print(r)
-    print(rr)
-    print(rrr) 
+    print("Proceso 0:", r)
+    print("Proceso 0:", rr)
+    print("Proceso 0:", rrr) 
 if rank == 1:
-    print(rrr)
+    print("Proceso 1:", rrr)
+
 
