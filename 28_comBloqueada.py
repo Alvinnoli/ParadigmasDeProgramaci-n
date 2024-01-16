@@ -14,7 +14,7 @@ import numpy
 # (cada proceso espera a que le reciban su mensaje)
 #==================================================
 class Mensaje:
-  def _init_(self, rank):
+  def __init__(self, rank):
     # iterador
     self.x = range(rank*10)
     # string 
@@ -23,7 +23,7 @@ class Mensaje:
 #=====================
 # Programa principal
 #=====================
-if _name_ == "_main_":
+if __name__ == "__main__":
     comm = MPI.COMM_WORLD
     size = comm.Get_size()
     rank = comm.Get_rank()
