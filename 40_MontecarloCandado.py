@@ -15,7 +15,7 @@ import os
 def montecarlo(N:int, resultado:Value,lock:Lock) -> None:
   semilla:float = random.uniform(-1,1)
   random.seed(semilla)
-  Dentro:int = 0
+  dentro:int = 0
   for i in range(N):
     x:float = random.uniform(-1,1)
     y:float = random.uniform(-1,1)
@@ -28,7 +28,7 @@ def montecarlo(N:int, resultado:Value,lock:Lock) -> None:
 #=========================
 # Programa principal
 #=========================
-if _name_ == "_main_":
+if __name__ == "__main__":
   lock = Lock()
   n:int = 1.0e7
   cpus = os.cpu_count()
