@@ -17,7 +17,7 @@ import matplotlib.patches as patches
 # Partícula(x,y)
 #====================
 class Particula():
-    def _init_(self, x:float, y:float):
+    def __init__(self, x:float, y:float):
         self.x = x 
         self.y = y 
 
@@ -26,7 +26,7 @@ class Particula():
 # (x0,y0): esquina   (w,h): ancho y alto de la caja
 #===========================================================================
 class Nodo():
-    def _init_(self, x0:float, y0:float, w:float, h:float, particulas):
+    def __init__(self, x0:float, y0:float, w:float, h:float, particulas):
         self.x0 = x0
         self.y0 = y0
         self.ancho = w 
@@ -91,7 +91,7 @@ def encontrar_hijos(nodo):
     return [nodo]
   else:
     hijos = []
-    fir hijo in nodo.hijos:
+    for hijo in nodo.hijos:
         hijos += (encontrar_hijos(hijo))
   return hijos
 
@@ -102,7 +102,7 @@ def encontrar_hijos(nodo):
 # Las cajas contiene máximo k partículas 
 #=======================================================
 class QTree():
-    def _init_(self, k:int, n:int):
+    def __init__(self, k:int, n:int):
         self.umbral = k 
         self.particulas = [Particula(random.uniform(0,10), random,uniform(1,10))for x in range(n)]
         self.root = Nodo(0,0,10,10, self.particulas)
@@ -139,4 +139,3 @@ class QTree():
 qtree = QTree(5,1000)
 qtree.subdividir()
 qtree.visualizacion()
-
