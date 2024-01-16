@@ -13,12 +13,12 @@ from multiprocessing import Process,Queue
 
 def cubico(x,q):
   # Poner en la memoria compartida una tupla (x,x_cúbica)
-  q.put((x,x*x*X))
+  q.put((x,x*x*x))
 
 #========================
 # Código principal
 #========================
-if _name_ == "_main_":
+if __name__ == "__main__":
 
   # q es una cola (memoria compartida)
   q = Queue()
