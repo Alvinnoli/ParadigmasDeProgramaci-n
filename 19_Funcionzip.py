@@ -67,5 +67,5 @@ print(sum(x*x for i in range(5)))
 # Arma la lista por usar []
 #===========================================
 numeros_pares = [x for x in range(21) if x%2 ==0]
-print([x for x in range() if x%2 == 0])
+print([x for x in range(21) if x%2 == 0])
 print(numeros_pares )
