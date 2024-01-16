@@ -68,7 +68,7 @@ def solucion(u,un,udx2,dt,n,k):
     for jj in range(1,n[1]-1):
       for ii in range(1,n[0]-1):
           i = ii + n[0]*jj
-          unueva = evolucion(u.un,udx2,dt,i,k)
+          unueva = evolucion(u,un,udx2,dt,i,k)
           if i == int(nt/2)+int(n[0]/2):
               unueva = 1.0
           un[i] = unueva
@@ -80,7 +80,7 @@ start = time.time()
 for t in range(1,pasos+1):
     solucion(u,un,udx2,dt,n,k)
     u = un
-    if t%100===0: print("Iteración = ",t)
+    if t%100==0: print("Iteración = ",t)
 end = time.time()
 print("Tard+o: ", end-start,"s")
 
@@ -92,4 +92,3 @@ ax = plt.axes(projection='3d')
 up = np.reshape(u,(n[0],n[1]))
 ax.plot_surface(x,y,up,cmap=cm.hsv)
 plt.show()
-
