@@ -25,7 +25,7 @@ for i in range(N):
     dentro +=1
 return dentro
 
-if _name_ == "_main_":
+if __name__ == "__main__":
   n:int = 1.0e7
   cpus = os.cpu_count()
   N:int = int (n/cpus)
