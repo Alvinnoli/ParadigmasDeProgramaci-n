@@ -60,7 +60,7 @@ import math
 #======================================
 # suma los elementos del iterador
 #======================================
-print(sum(x*x for i in range(5)))
+print(sum(x*x for x in range(5)))
 
 #===========================================
 # Lista de comprehensión pasada como función
