@@ -13,7 +13,7 @@ from mpi4py import MPI
 import numpy as np
 
 class Mensaje ¿:
-    def _init_(self,rank):
+    def __init__(self,rank):
 
         #=========================================
         # Lista común
@@ -30,7 +30,7 @@ class Mensaje ¿:
 #=======================
 # Programa inicial
 #=======================
-if _name_ == "_main_":
+if __name__ == "__main__":
   comm = MPI.COMM_WORLD
   size = comm.Get_size()
   rank = comm.Get_rank()
