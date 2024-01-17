@@ -7,7 +7,7 @@ from aplicacion.modelos.usuario import Usuario
 class SistemaDeArchivos(RepositorioDeUsuarios):
     _directorios: str
 
-    def _init_(mi, directorio:str):
+    def __init__(mi, directorio:str):
         mi._directorio = directorio
 
     def abrir(mi) -> None:
