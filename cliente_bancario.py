@@ -7,7 +7,7 @@ class ClienteBancario:
     _edad:int = 0 
     _balanceDeCuenta:float = 0.0
 
-    def _init_(self, nombres:str, apellidos:str, edad:int=0, balanceDeCuenta:float=0.0):
+    def __init__(self, nombres:str, apellidos:str, edad:int=0, balanceDeCuenta:float=0.0):
         self._validarEdad(edad)
         self._validarCantidad(balanceDeCuenta)
         self.nombres = nombres
