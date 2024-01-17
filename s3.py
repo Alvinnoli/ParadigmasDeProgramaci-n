@@ -9,7 +9,7 @@ class S3(RepositorioDeUsuarios):
     _secretKey: str
     _bucket: str
 
-  def _init_(mi,ClienteId: str, secretKey: str,bucket:str):
+  def __init__(mi,ClienteId: str, secretKey: str,bucket:str):
       mi._clientId = clienteId
       mi._secretKey = secretKey
       mi._bucket = bucket
