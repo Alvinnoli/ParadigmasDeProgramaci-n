@@ -8,7 +8,7 @@ class BaseDeDatos(RepositorioDeUsuarios):
     _host: str 
     _user: str 
     _password: str 
-    def _init_(mi,host:str, user:str, password:str): 
+    def __init__(mi,host:str, user:str, password:str): 
         mi._host = host 
         mi._user = user
         mi._password = password 
