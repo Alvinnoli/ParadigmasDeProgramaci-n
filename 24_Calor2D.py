@@ -34,7 +34,7 @@ pasos = 100
 dx = L/n 
 udx2 = 1.0/(dx*dx)
 # Paso de tiempo
-dt = 0.25*(min(dx[0],dx[1])**2/k)
+dt = 0.25*(min(dx[0],dx[1])**2)/k
 print("dt = ",dt)
 # Total de celdas
 nt = n[0]*n[1]
