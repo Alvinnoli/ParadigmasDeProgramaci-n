@@ -2,26 +2,26 @@
 # Clase Usuario
 #===================
 class Usuario:
-    _nombre: str
-    _apellido: str 
-    _edad:int
+    __nombre: str
+    __apellido: str 
+    __edad:int
 
     #=====================
     # Constructor
     #=====================
     def __init__(mi,nombre:str, apellido:str, edad:int):
-        mi._nombre = nombre 
-        mi._apellido = apellido
-        mi._edad = edad
+        mi.__nombre = nombre 
+        mi.__apellido = apellido
+        mi.__edad = edad
     
     #=================
     # Getters
     #=================
     def getNombre(mi) ->str:
-        return mi._nombre
+        return mi.__nombre
 
     def getApellido(mi) ->str:
-        return mi._apellido
+        return mi.__apellido
 
     def getEdad(mi) -> int:
-        return mi._edad 
+        return mi.__edad 
