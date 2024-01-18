@@ -12,18 +12,18 @@ import os
 #=================================================
 # Simulación Montecarlo en paralelo
 #=================================================
-def montecarlo(N:int)  -> int.
+def montecarlo(N:int)  -> int:
   semilla:float = random.uniform(-1,1)
   random.seed(semilla)
   dentro.int = 0
-for i in range(N):
-  # Pares de números al azar en (-1,1)
-  x:float = random.uniform(-1,1)
-  y:float = random.uniform(-1,1)
-  #Contar los que están dentro del círculo de radio 1 
-  if (x*x +y*y) < 1.0:
-    dentro +=1
-return dentro
+  for i in range(N):
+      # Pares de números al azar en (-1,1)
+      x:float = random.uniform(-1,1)
+      y:float = random.uniform(-1,1)
+      #Contar los que están dentro del círculo de radio 1 
+      if (x*x +y*y) < 1.0:
+         dentro +=1
+  return dentro
 
 if __name__ == "__main__":
   n:int = 1.0e7
