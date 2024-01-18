@@ -31,7 +31,7 @@ if __name__ == "__main__"
   ts = time.time()
 
   # Un grupo de procesos(pool)
-  pool = mp. Pool(mp.cpu_count())
+  pool = mp.Pool(mp.cpu_count())
 
   # loop de primera dimensión del arreglo
   for i in range(0, params.shape[0]):
