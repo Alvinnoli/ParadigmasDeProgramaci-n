@@ -29,10 +29,9 @@ else:
   data = None
 
 #====================================================
-# Enivar diccionario a todos los procesos desde root
+# Enviar diccionario a todos los procesos desde root
 #====================================================
 data = comm.bcast(data, root=0)
-print = comm.bcast(data, root=0)
 print(data)
 
 #===============================
