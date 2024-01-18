@@ -12,6 +12,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplt3d import Axes3d
+from matplotlib import cm
 import time
 from numba import jit
 
@@ -82,7 +83,7 @@ for t in range(1,pasos+1):
     u = un
     if t%100==0: print("Iteración = ",t)
 end = time.time()
-print("Tard+o: ", end-start,"s")
+print("Tardó: ", end-start,"s")
 
 #=========================================
 # Graficar la solución al tiempo final
