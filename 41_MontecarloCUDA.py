@@ -31,7 +31,7 @@ def calcularpi_kernel(rng_states, iteraciones, out):
       y = xoroshiro128p_uniform_float64(rng_states, ii)
       # Contar los que caen dentro del círculo de radio 1
       if x**2 + y**2 <= 1.0:
-        cae_adetntro += 1
+        cae_adentro += 1
     #===========================================
     # Escribir resultado para proceso ii
     #===========================================
@@ -65,8 +65,3 @@ out = np.zeros(hilosporbloque*bloques, dtype=np.float64)
 #========================================
 calcularpi_kernel[bloques, hilosporbloque](rng_states, 100000, out)
 print('pi:', out.mean())
-
-
-#=========================================
-# Herramientas para memoización
-#=========================================
